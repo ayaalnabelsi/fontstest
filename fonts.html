@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toegankelijke Tekst prototype</title>
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Toegankelijke tekst prototype</h1>
+      
+      <p>
+        Dit is voorbeeldtekst om te testen hoe toegankelijk het lettertype is.
+        Gebruik de knoppen om de weergave aan te passen.
+      </p>
+
+      <h2>Nos Van Gogh Artikel</h2>
+      <h3>Van Gogh na zes jaar terug in Groninger Museum</h3>
+
+  
+      <div class="controls">
+        <h3>Kop grootte</h3>
+        <button onclick="setHeadingSize('groot')">Groot</button>
+        <button onclick="setHeadingSize('middel')">Middel</button>
+        <button onclick="setHeadingSize('klein')">Klein</button>
+
+        <h3>Letter spacing</h3>
+        <button onclick="setSpacing('normaal')">Normaal</button>
+        <button onclick="setSpacing('breed')">Breed</button>
+        <button onclick="setSpacing('extra')">Extra breed</button>
+      </div>
+    </div>
+
+    <script src="fonts.js"></script>
+  </body>
+</html>
